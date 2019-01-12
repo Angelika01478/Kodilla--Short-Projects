@@ -6,6 +6,7 @@ public class Kalkulator {
         return a+b;
     }
 
+
     double subtract (double a, double b){
         return a-b;
     }
@@ -15,7 +16,7 @@ public class Kalkulator {
         double firstValue = kalkulator.add(15.4,8);
         double secondValue= kalkulator.subtract(25.785, 18.11);
 
-        System.out.println(firstValue);
-        System.out.println(secondValue);
+        System.out.println("the result is equal: " +firstValue);
+        System.out.println("the result is equal: " +secondValue);
     }
 }
